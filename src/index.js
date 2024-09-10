@@ -1,8 +1,8 @@
 import express from 'express';
-import exam from '../src/routes/exam';
-import subject from '../src/routes/subject';
-import mydata from '../src/routes/mydata';
-import node from '../src/routes/node';
+import exam from '../src/routes/exam.js';
+import subject from '../src/routes/subject.js';
+import mydata from '../src/routes/mydata.js';
+import node from '../src/routes/node.js';
 
 const app = express();
 
